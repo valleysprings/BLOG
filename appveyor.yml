@@ -1,7 +1,7 @@
 clone_depth: 5
 environment:
   access_token:
-    secure: 56c090ea951c6510134b69da3b7138c5d36acfb0
+    secure: SybzW5cZxHwGIknRDrGEfVcqnngqRURYvATPfu8Q2ld+RBABBUWapf4X42r6VOAX
 install:
     - ps: Install-Product node 10.19.0
     - node --version
