@@ -1,12 +1,13 @@
 clone_depth: 5
 environment:
+  nodejs_version: "10"
   access_token:
     secure: 56c090ea951c6510134b69da3b7138c5d36acfb0
 install:
     - node --version
     - npm --version
     - npm install
-    - npm install hexo-cli@3.1.0 -g
+    - npm install hexo-cli -g
 build_script:
     - hexo generate
 artifacts:
